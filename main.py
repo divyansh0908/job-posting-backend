@@ -19,7 +19,7 @@ secret = 'bjefisdhbiesudbv4545njk3b2b4ejwb343nkbn3jkb43b'
 app.config['JWT_SECRET_KEY'] = secret
 jwt = JWTManager(app)
 # connect to MongoDB
-mongo=MongoClient('mongodb+srv://divyansh0908:Hardik0908@sandbox.vwhnx.mongodb.net/?retryWrites=true&w=majority')
+mongo=MongoClient('mongodb://localhost:27017/')
 db = mongo['jobportal']
 
 users = db['users']
