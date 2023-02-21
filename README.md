@@ -3,7 +3,7 @@
 2. Hit the command(for windows) 
 ### `pip install -r requirements.txt`
 for ubuntu/mac
-### `pip install -r requirements.txt`
+### `pip3 install -r requirements.txt`
 3. To run the server(windows):
 ### `python main.py`
 
